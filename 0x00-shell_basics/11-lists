@@ -1,2 +1,2 @@
 #!/bin/bash
-ls . ../boot mlp
+ls -mlp . ../boot
