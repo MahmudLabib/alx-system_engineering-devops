@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -l . | sort -t "," -nk5,7,8 -k6
