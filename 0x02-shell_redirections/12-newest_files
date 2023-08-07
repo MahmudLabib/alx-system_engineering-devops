@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l . | sort -t "," -nk7,8 -k6
+ls -t1 | head
