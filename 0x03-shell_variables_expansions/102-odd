@@ -1,2 +1,2 @@
 #!/bin/bash
-ls | cat -n | grep -v "^$" | grep -E "^[0-9]" | cut -d " " -f 2-
+ls -1 | cat - | grep -v "^$" | cut -d " " -f 2-
